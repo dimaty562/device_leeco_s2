@@ -58,14 +58,10 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so|3a19c81d66ef1190d0b2f361420d5cbf707cc60
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
 
 # Consumerir - from le_x10 (x850) - 7.1.1/LEXCNFN6061705181T/letv05181516
--app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk|7695ecb344390d2cb78088eed67d3de782790d04
 
 # CNE - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
 etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
-framework/cneapiclient.jar|af7db889362e562a4c5073bb6aae32947218abf0
-framework/com.quicinc.cne.jar|ce985797730a043142c2312e30ada28cb755faef
--priv-app/CNEService/CNEService.apk|4c6ee655fcdda500f4999ca9b3e1c028af2c8a71
 vendor/bin/cnd|81c0f2beecb6f375b4d460adbfb739b8aa970a70
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -121,14 +117,11 @@ etc/dpm/dpm.conf|5f19d3984b5291ac956552bda2a84c10c535df0a
 etc/init/dpmd.rc|52ca6ad920a1804e4ff608113cece063730f5e0c
 etc/permissions/com.qti.dpmframework.xml|36b94c9338069e434b83359a92cdc7ff62b822df
 etc/permissions/dpmapi.xml|ded29f9befaef20a7ccee0c75427fda1d1d04890
-framework/com.qti.dpmframework.jar|2a6ff555ebff148a508fc7ea2fbeaee4b9a2dff6
-framework/dpmapi.jar|66a30e2752b058f6f522721ef6b5efb4c747f7ed
 lib64/com.qualcomm.qti.dpm.api@1.0.so|2af88934e4039edaac842576a1861cbdfe39838b
 lib64/libdpmctmgr.so|595449eff197e8c3bc6f7a4f0242188abe82418f
 lib64/libdpmfdmgr.so|f03869f7bee601182c545e892523d23529439e16
 lib64/libdpmframework.so|9dc137606c1cb73e3ec5a97c954df93e750dd459
 lib64/libdpmtcm.so|1f85ced85f541146756df0b4597a4c51300be63a
--priv-app/dpmserviceapp/dpmserviceapp.apk|a642336052f3e5d70580700e2aebba230a5f663f
 vendor/bin/dpmQmiMgr|31e019a02d25a959a2edfe2c9a04ab958562bb67
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|2af88934e4039edaac842576a1861cbdfe39838b
 vendor/lib64/libdpmqmihal.so|4254cc9f10f6f3d990958c17f4e43d8e9e09c382
@@ -287,8 +280,6 @@ vendor/bin/charger|a6ca35eff5ecc01b437e8cec2a53d7d5013d4f6e
 bin/perfservice|03d6368017d4c41f7fea647c669b69d6567238af
 etc/init/perfservice.rc|67144c3f1800f976cb58463c4370882d2d820947
 etc/perf/whitelistedapps.xml|a489e65df170543a2817a690fbae36c34e29613b
--framework/QPerformance.jar|70a5463b9ff26d51715ce31523efcaa7d4840f10
--framework/UxPerformance.jar|0e3babfa37e2368aee16de3d6f8cdea06e081dea
 lib/libqti-at.so|1101ee354735905f39337bc032c6b547dbce846c
 lib/libqti-iopd-client_system.so|d1602341242d949bee431d8856df9aacc38c4b6b
 lib/libqti-perfd-client_system.so|74f4d9657cf492cf1de2e9b93983f4e7b5431c45
@@ -339,7 +330,6 @@ vendor/lib64/libperipheral_client.so
 
 # Postprocessing - from SRT Phone 8.0.0
 etc/permissions/com.qti.snapdragon.sdk.display.xml|bd2a3394bdd6ec4e94fa6a59e816a97e89940ab6
-framework/com.qti.snapdragon.sdk.display.jar|c7f5835922ab0388efd21d2ec818580f5676b191
 -lib/vendor.display.color@1.0.so|c5b6d3a2db15d191048c493d033b94949c40ccc0
 lib/vendor.display.postproc@1.0.so|1630c2d20e2374532317ab81ad8cd7e6ff235cb7
 lib/vendor.qti.hardware.qdutils_disp@1.0.so|50cf82a0bd8278ac8dea0b48f0c70c6554be6243
@@ -359,7 +349,6 @@ vendor/lib64/vendor.display.postproc@1.0_vendor.so|cd7a66aebd140ae1c5369ee9d903a
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so|2943c3a72992ef81c00a367400f350948cf5559b
 
 # Power-off alarm - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
--vendor/app/PowerOffAlarm/PowerOffAlarm.apk|3fbc64ee84b17eaaf5f9002b58f4615216de0389
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|b7f648c81773214202aaa3620863d048c90713c7
 vendor/bin/power_off_alarm|459ccd83df3fcc076bb82bff60f47d14ad69ad6e
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
@@ -408,11 +397,6 @@ vendor/lib64/libqmiservices.so
 vendor/lib64/libsmemlog.so
 
 # Radio
--app/QtiTelephonyService/QtiTelephonyService.apk
--framework/QtiTelephonyServicelibrary.jar
--framework/qcrilhook.jar
--framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 vendor/bin/ATFWD-daemon
@@ -461,10 +445,8 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/radio/qcril_database/qcril.db
 
 # Radio - IMS
--app/uceShimService/uceShimService.apk
 etc/permissions/qti-vzw-ims-internal.xml
 etc/permissions/com.qualcomm.qti.imscmservice.xml
-framework/com.qualcomm.qti.imscmservice@1.0-java.jar
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/lib-imscamera.so
 lib/lib-imsvideocodec.so
@@ -484,13 +466,10 @@ lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.imsrtpservice@1.0.so
--priv-app/ims/ims.apk|54464ad55ece9aa27bedca09f5af0ca49f17620b
--vendor/app/imssettings/imssettings.apk|34bb4f4e805c938d894cce6b4cee66516f64a130
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
-vendor/framework/qti-vzw-ims-internal.jar
 vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so
 vendor/lib/lib-imsSDP.so
 vendor/lib/lib-imscmservice.so
@@ -539,7 +518,6 @@ vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
 vendor/lib64/libthermalioctl.so|6eed5b8ca6989809eac27abd4af19bbd6f3845ee
 
 # Time services - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
--vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
 vendor/bin/time_daemon|bc58af8ed0cc94708aa75372565f4251991ab123
 vendor/lib/libtime_genoff.so|24f6064818bc53c5ea17a3608766e3cc1e889f64
 vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
